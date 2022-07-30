@@ -1,0 +1,6 @@
+Welcome 
+<% if logged_in? %>
+    <b>
+        <%="#{current_user.firstname.upcase.capitalize} #{current_user.lastname.capitalize}" %>
+    </b>
+<% end %>
